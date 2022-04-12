@@ -1,0 +1,70 @@
+
+body {
+  background-image:url(imagem.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 110%;
+  font-family: sans-serif; color: white;
+  text-align: center;
+}
+
+legend {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.buscarEndereco {
+  font-family: arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border:none;
+  padding: 10px;
+  cursor:pointer;
+}
+
+.card {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 440px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 8px;
+  height: auto;
+  padding: 20px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.cLoader {
+  margin: 20px 0px 10px;
+  border: 8px solid #e5ece9;
+  border-radius: 50%;
+  border-top: 8px solid #1352dae5;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

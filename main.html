@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Endereço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="centro">Buscar endereço através do CEP</h2>
+
+    <div class="card">
+
+        <legend>Consultar</legend>
+
+        <h3>CEP: <input type="text" id="cep"></h3>
+
+        <button onclick="endereco()">Buscar Endereço</button>
+        
+
+    </div>
+
+    <br><br>
+
+    <div class="card">
+
+        <legend>Seu endereço</legend>
+        <br><br>
+        Logradouro: <input type="text" id="logradouro" disabled>
+        <br><br>
+        Complemento: <input type="text" id="complemento" disabled>
+        <br><br>
+        Localidade: <input type="text" id="localidade" disabled>
+        <br><br>
+        Bairro: <input type="text" id="bairro" disabled>
+        <br><br>
+        UF: <input type="text" id="uf" disabled>
+
+
+    </div>
+
+    <br><br>
+<script src="buscarCep.js"></script>    
+</body>
+</html>
